@@ -19,8 +19,8 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-        mList1 = ArrayList(listOf("unoh", "doh", "træh"))
-        mList2 = ArrayList(listOf("unoh", "doh", "træh"))
+        mList1 = ArrayList(listOf("one", "two", "three"))
+        mList2 = ArrayList(listOf("one", "two", "three"))
 
         // Without ViewHolder.
         mAdapter1 = object : MyAdapter<String>(this, mList1, R.layout.list_view) {
